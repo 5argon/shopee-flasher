@@ -1,0 +1,28 @@
+{
+  "name": "@5argon/shopee-flasher",
+  "version": "0.1.0",
+  "description": "Query all available Flash Sale items at current time from https://shopee.co.th/.",
+  "main": "dist/index.js",
+  "author": "5argon",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url": "git://github.com/5argon/shopee-flasher"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist; tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
